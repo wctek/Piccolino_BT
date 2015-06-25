@@ -5,7 +5,7 @@ Simple BT library for the Piccolino BT expansion board. The board uses the
 SC16IS760 I2C UART to create a hardware serial channel to either the HM10 or HC05 BT
 modules, leaving all other I/O pins available to the user.
 
-The I2CUART IC has 7 user programmable I/O GPIOs. GPIO 0,1 and 2 are used by the
+The I2CUART IC has 8 user programmable I/O GPIOs. GPIO 0,1 and 2 are used by the
 library, leaving GPIO3 to GPIO7 (5 gral purpose pins) free to be used for other
 tasks.
 
