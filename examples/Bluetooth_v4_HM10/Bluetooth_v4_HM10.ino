@@ -12,7 +12,7 @@ void setup()
   Serial.print(F("Initializing ..."));
   BT.begin(0x9a,HM10);  //default i2c address is 0x9A(A1,A0 = low), HM10 (BLE) or HC05 (BT2.0)
 
-  // see the HC05 datasheet for more information on AT commands.  
+  // see the HM10 datasheet for more information on AT commands.  
   BT.Cmd("AT+ROLES"); // Set as Slave 
   BT.Cmd("AT+TYPE2"); // Require Pin for connection  
   BT.Cmd("AT+POWE3"); // Maximun TX Power (0-3) 2 default
