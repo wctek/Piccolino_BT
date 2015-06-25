@@ -1,0 +1,27 @@
+########################################
+# Syntax Coloring Map For Piccolino_BT
+########################################
+
+########################################
+# Datatypes (KEYWORD1)
+########################################
+
+Piccolino_BT	KEYWORD1
+
+########################################
+# Methods and Functions (KEYWORD2)
+########################################
+
+cmd	KEYWORD2
+available	KEYWORD2
+begin	KEYWORD2
+getStatus	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+
+########################################
+# Constants (LITERAL1)
+########################################
+
+HC05	LITERAL1
+HM10	LITERAL1
