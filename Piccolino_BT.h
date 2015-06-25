@@ -11,12 +11,13 @@ Feel free to modify - please submit updates to admin@wctek.com
 
 */
 
+
 #ifndef _Piccolino_BT_H_
 #define _Piccolino_BT_H_
 
 #include "Arduino.h"
 
-//General Registers
+//I2C UART Registers
 #define     Piccolino_BT_REG_RHR        (0x00)
 #define     Piccolino_BT_REG_THR        (0X00)
 #define     Piccolino_BT_REG_IER        (0X01)
@@ -36,19 +37,13 @@ Feel free to modify - please submit updates to admin@wctek.com
 #define     Piccolino_BT_REG_IOINTENA   (0X0C)
 #define     Piccolino_BT_REG_IOCONTROL  (0X0E)
 #define     Piccolino_BT_REG_EFCR       (0X0F)
-
-//Special Registers
 #define     Piccolino_BT_REG_DLL        (0x00)
 #define     Piccolino_BT_REG_DLH        (0X01)
-
-//Enhanced Registers
 #define     Piccolino_BT_REG_EFR        (0X02)
 #define     Piccolino_BT_REG_XON1       (0X04)
 #define     Piccolino_BT_REG_XON2       (0X05)
 #define     Piccolino_BT_REG_XOFF1      (0X06)
 #define     Piccolino_BT_REG_XOFF2      (0X07)
-
-//
 #define     Piccolino_BT_INT_CTS        (0X80)
 #define     Piccolino_BT_INT_RTS        (0X40)
 #define     Piccolino_BT_INT_XOFF       (0X20)
@@ -58,9 +53,7 @@ Feel free to modify - please submit updates to admin@wctek.com
 #define     Piccolino_BT_INT_THR        (0X02)
 #define     Piccolino_BT_INT_RHR        (0X01)
 
-//Application Related 
-
-#define 	Piccolino_BT_CRYSTCAL_FREQ   (18432000UL)	  
+#define     Piccolino_BT_CRYSTCAL_FREQ   (18432000UL)     
 
 #define HM10 0
 #define HC05 1
@@ -75,7 +68,7 @@ class Piccolino_BT : public Print
         void pinMode(uint8_t pin, uint8_t io);
         void digitalWrite(uint8_t pin, uint8_t value);
         uint8_t digitalRead(uint8_t pin);
-		void flush();
+        void flush();
         void reset();
         void commandMode();
         void commsMode();
