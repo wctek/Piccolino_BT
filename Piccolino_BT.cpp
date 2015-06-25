@@ -1,3 +1,16 @@
+/* 
+
+Piccolino_BT - Simple BT library to interface the I2CUART IC to the HC05/HM10 bluetooth modules.
+Written by Alex Sardo - http://piccolino.rocks 
+
+History
+========================================================================
+Version 0.1 - initial release June 2015 - lots of work still to be done.
+
+Feel free to modify - please submit updates to admin@wctek.com
+
+*/
+
 #include <Piccolino_BT.h>
 #include <Wire.h>
 

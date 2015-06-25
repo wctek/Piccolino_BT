@@ -1,24 +1,15 @@
 /* 
-Description:
-This is a example code for Sandbox Electronics' I2C/SPI to UART bridge module.
-You can get one of those products on 
-http://sandboxelectronics.com
 
-Version:
-V0.1
+Piccolino_BT - Simple BT library to interface the I2CUART IC to the HC05/HM10 bluetooth modules.
+Written by Alex Sardo - http://piccolino.rocks 
 
-Release Date:
-2014-02-16
+History
+========================================================================
+Version 0.1 - initial release June 2015 - lots of work still to be done.
 
-Author:
-Tiequan Shao          info@sandboxelectronics.com
+Feel free to modify - please submit updates to admin@wctek.com
 
-Lisence:
-CC BY-NC-SA 3.0
-
-Please keep the above information when you use this code in your project. 
 */
-
 
 #ifndef _Piccolino_BT_H_
 #define _Piccolino_BT_H_
