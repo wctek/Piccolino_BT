@@ -2,7 +2,7 @@ Piccolino I2C Bluetooth 2.0/4.0 Library
 Written by Alex Sardo - http://piccolino.rocks
 
 Simple BT library for the Piccolino BT expansion board. The board uses the
-SC16IS740 I2C UART to create a hardware serial channel to either the HM10 or HC05 BT
+SC16IS760 I2C UART to create a hardware serial channel to either the HM10 or HC05 BT
 modules, leaving all other I/O pins available to the user.
 
 The I2CUART IC has 7 user programmable I/O GPIOs. GPIO 0,1 and 2 are used by the
