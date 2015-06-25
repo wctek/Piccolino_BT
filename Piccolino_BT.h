@@ -53,7 +53,7 @@ Feel free to modify - please submit updates to admin@wctek.com
 #define     Piccolino_BT_INT_THR        (0X02)
 #define     Piccolino_BT_INT_RHR        (0X01)
 
-#define     Piccolino_BT_CRYSTCAL_FREQ   (18432000UL)     
+#define     Piccolino_BT_CRYSTCAL_FREQ   (16000000UL)     
 
 #define HM10 0
 #define HC05 1
